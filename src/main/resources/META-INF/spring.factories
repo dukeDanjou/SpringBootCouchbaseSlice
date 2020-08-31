@@ -1,0 +1,9 @@
+# AutoConfigureDataMongo auto-configuration imports
+com.my.work.couchbase.AutoConfigureCouchbaseTest=\
+org.springframework.boot.autoconfigure.com.my.work.couchbase.CouchbaseAutoConfiguration,\
+org.springframework.boot.autoconfigure.data.com.my.work.couchbase.CouchbaseRepositoriesAutoConfiguration,\
+org.springframework.boot.autoconfigure.data.com.my.work.couchbase.CouchbaseReactiveRepositoriesAutoConfiguration,\
+org.springframework.boot.autoconfigure.data.com.my.work.couchbase.CouchbaseReactiveDataAutoConfiguration,\
+org.springframework.boot.autoconfigure.data.com.my.work.couchbase.CouchbaseDataAutoConfiguration,\
+org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration
+
